@@ -1,0 +1,11 @@
+#include<stdio.h>
+//#ifndef
+#error Include Math Library
+#else
+void main()
+{
+  float a;
+  a=sqrt(7);
+  printf("if",a);
+}
+//#endif
